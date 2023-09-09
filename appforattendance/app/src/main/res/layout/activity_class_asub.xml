@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".classAsub">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="91dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Events"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#6200EE"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/sub1"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:backgroundTint="#3700B3"
+        android:fontFamily="@font/poppins"
+        android:text="Seminars"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="39dp" />
+
+    <Button
+        android:id="@+id/sub2"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:backgroundTint="#3700B3"
+        android:fontFamily="@font/poppins"
+        android:text="Workshop"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/sub3"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:backgroundTint="#3700B3"
+        android:fontFamily="@font/poppins"
+        android:text="Expert Talk"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
+    <Button
+        android:id="@+id/sub4"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:backgroundTint="#3700B3"
+        android:fontFamily="@font/poppins"
+        android:text="Sports "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>

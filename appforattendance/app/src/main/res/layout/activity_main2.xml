@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".MainActivity2">
+
+    <Space
+        android:layout_width="411dp"
+        android:layout_height="123dp" />
+
+    <TextView
+        android:id="@+id/clubtext"
+        android:layout_width="411dp"
+        android:layout_height="111dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Session Name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/useremail"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter username"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#BB86FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Space
+        android:layout_width="411dp"
+        android:layout_height="23dp" />
+
+    <TextView
+        android:id="@+id/barcodeTextView"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8sp"
+        android:text="QR"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFA2FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/currentdate"
+        android:layout_width="411dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter Date"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3700B3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:text="@tools:sample/date/ddmmyy" />
+
+    <Space
+        android:layout_width="411dp"
+        android:layout_height="34dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#6200EE"
+        android:text="SCAN"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btMark"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#BB86FC"
+        android:fontFamily="@font/poppins"
+        android:text="MARK"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btval"
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#FFA2FF"
+        android:fontFamily="@font/poppins"
+        android:text="Validate"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="411dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

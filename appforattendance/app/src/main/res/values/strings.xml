@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">appforattendance</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+
+    <string-array name="Session_names">
+        <item>sports</item>
+        <item>seminars</item>
+        <item>experttalk</item>
+        <item>workshop</item>
+    </string-array>
+
+</resources>

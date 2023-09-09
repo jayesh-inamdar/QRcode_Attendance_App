@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:foregroundTint="#651FFF"
+    android:foregroundTintMode="src_over"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".login">
+
+   <LinearLayout
+       android:layout_width="395dp"
+       android:layout_height="435dp"
+       android:layout_centerInParent="true"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="16dp"
+       android:orientation="vertical">
+
+      <EditText
+          android:id="@+id/email"
+          android:layout_width="match_parent"
+          android:layout_height="103dp"
+          android:fontFamily="@font/poppins"
+          android:hint="Email"
+          android:textColor="#6200EE" />
+
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="389dp"
+          android:layout_height="112dp"
+          android:fontFamily="@font/poppins"
+          android:hint="Password"
+          android:inputType="textPassword"
+          android:textColor="#6200EE"
+          android:textSize="20sp" />
+
+      <Button
+          android:id="@+id/btn_login"
+          android:layout_width="match_parent"
+          android:layout_height="111dp"
+          android:background="#3700B3"
+          android:fontFamily="@font/poppins_semibold"
+          android:hint="Validate"
+          android:text="Login"
+          android:textColor="#fff"
+          android:textSize="24sp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="20dp" />
+
+      <Button
+          android:id="@+id/adminbutton2"
+          android:layout_width="match_parent"
+          android:layout_height="59dp"
+          android:backgroundTint="#FFA2FF"
+          android:text="Go to Admin page"
+          android:textColor="#FFFFFF" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="23dp" />
+
+      <ProgressBar
+          android:id="@+id/progressBar"
+          android:layout_width="400dp"
+          android:layout_height="108dp"
+          android:background="#FFFFFF"
+          android:foregroundTint="#6200EE"
+          android:progressTint="#6200EE"
+          android:visibility="visible" />
+
+   </LinearLayout>
+
+
+</RelativeLayout>
