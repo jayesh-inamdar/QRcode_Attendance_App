@@ -1,9 +1,8 @@
-# QRcode Attendance App
+# AppforAttendance
 
 ## Overview
 
-QRcode Attendance App is an Android application developed using Android Studio that enables efficient attendance management through QR code scanning. The app utilizes the ZXing library for QR code generation and scanning and integrates Firebase for backend support to store and manage attendance records.
-
+AppforAttendance is a QR code-based attendance application developed using Java and Android Studio. It enables efficient attendance management through QR code scanning. The app utilizes the ZXing library for QR code generation and scanning and integrates Firebase for backend support to store and manage attendance records.
 ## Features
 
 - **QR Code Generation**: Create unique QR codes for each user.
